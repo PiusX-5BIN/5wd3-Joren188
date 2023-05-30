@@ -1,0 +1,10 @@
+body {
+    background-image: url(fotos/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bodyunreal {
+    background-image: url(fotos/unreal1.webp);
+}
