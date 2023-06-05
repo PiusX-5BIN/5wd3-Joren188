@@ -1,4 +1,17 @@
-# Machine Learning 
+# Machine Learning
+
+## Projecten
+
+
+[Javascript Game](javascriptgame.md)
+[Comicbook](comicbook.md)
+[Website Superhero](website.md)
+
+
+## Blogpost 
+[Blog Unreal Engine](blogunrealengine.md)
+
+
 <p>
 In de afgelopen jaren heeft machine learning een opmerkelijke opkomst doorgemaakt en heeft het de manier waarop we technologie gebruiken en begrijpen getransformeerd. Deze tak van kunstmatige intelligentie heeft het vermogen om computers te laten leren en taken uit te voeren zonder expliciet geprogrammeerd te zijn, waardoor ze in staat zijn om complexe patronen en inzichten te ontdekken. In deze blog gaan we dieper in op machine learning, de toepassingen ervan en de impact die het heeft op verschillende aspecten van ons leven.</p>
 <p>
