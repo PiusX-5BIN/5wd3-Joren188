@@ -1,55 +1,103 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Black Panther</title>
+<html lang="en">
+<head>
     <link rel="stylesheet" href="compositions.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="blocks.css">
     <link rel="stylesheet" href="exceptions.css">
-  
-  </head>
-  <body id = "bodyindex">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="javascript/halloween.js"></script>
+    <script>
+        
+window.onload = () =>  {
+    document.querySelector("#btnNext").onclick = () => {
+        huidigeFrame++;
+    }
+    document.querySelector("#btnPrev").onclick = () => {
+        huidigeFrame--;
+    }
+};
+    </script>
+
+
+</head>
+<body id = "bodyindex">
     <input type="checkbox" id="check">
     <label for="check">
       <i class="fas fa-bars" id="btn"></i>
       <i class="fas fa-times" id="cancel"></i>
     </label>
     <div class="sidebar">
-    <header>Black Pather </header>
+    <header>Machine Learning</header>
     <ul>
         <li>
         <a href ="index.html">Home</a>
         </li>
         <li>
-        <a href ="javascriptgame.html">Javascriptgame</a>
+        <a href ="javascriptgame.html">javascriptgame</a>
+        </li>
+        <li>
+        <a href ="comicbook.html">comicbook</a>
         </li>
         <li>
         <a href ="website.html">Superhero Website</a>
         </li>
         <li>
-        <a href ="blogunrealengine.html">Blog Unreal Engine </a>
+        <a href ="blogunrealengine.html">Blog Unreal Engine</a>
         </li>
-        </li>
-        <a href ="blogmachinelearning.html">Blog Machine Learning</a>
-        </li>
-      </ul>
-   </div>
-   <main>
-   <h1 id = "comic">Comic book </h1>
-   <p>Hier vindt je de opdracht waarbij we een eigen verhaaltje moesten maken van 5 scenes lang. 
-    Ik had dan gekozen voor een soot van halloween thema met een spook en pompoen.</p>
-    <section id = "comics">
-    <img src = "fotos/cb.png">
-    <img src = "fotos/cb2.png">
-    <img src = "fotos/cb3.png">
-    <img src = "fotos/cb4.png">
-    <img src = "fotos/cb5.png">
-    </section>
-  </main>
-  <footer>
-    
-  </footer>
 
-  </body>
+    </ul>
+   </div>
+    <h1>
+    Comicbook
+    </h1>
+    <main>
+        <form>
+            <button type="button" id="btnPrev">previous</button>
+            <button type="button" id="btnNext">next</button>
+        </form>
+        <section>
+        </section>
+        <article id = "text">
+          <H2>Javascript game</H2> 
+          <p>
+          <br>
+          Introductie:
+          In de wereld van videogames en digitale visualisaties is Unreal Engine een naam die bekend is bij ontwikkelaars en enthousiastelingen. Het is een krachtige game-engine die wordt gebruikt door professionals en beginners om verbluffende virtuele werelden te creëren. In dit blogartikel zullen we een kijkje nemen in de wereld van Unreal Engine, de functies ervan en waarom het zo'n populaire keuze is geworden.
+          Wat is Unreal Engine?
+          Unreal Engine is een toonaangevende game-engine die is ontwikkeld door Epic Games. Het is een compleet ontwikkelingsplatform dat wordt gebruikt voor het maken van hoogwaardige 3D- en 2D-games, augmented reality (AR)- en virtual reality (VR)-ervaringen, simulaties, films en meer. Het biedt ontwikkelaars een scala aan tools en mogelijkheden om hun creatieve visie tot leven te brengen.</p>
+          <br>
+          Krachtige Grafische Mogelijkheden:
+          Een van de meest indrukwekkende aspecten van Unreal Engine is de grafische kracht. Met geavanceerde renderingtechnieken, zoals real-time raytracing, kan de engine verbluffende visuele kwaliteit leveren. Van realistische belichting en schaduwen tot gedetailleerde texturen en effecten, Unreal Engine stelt ontwikkelaars in staat om meeslepende en adembenemende visuele ervaringen te creëren.
+          
+          <br><br>
+          Blueprint Visual Scripting:
+          Voor degenen die niet bekend zijn met traditioneel programmeren, biedt Unreal Engine een krachtige visuele scripttaal genaamd Blueprint. Met Blueprint kunnen ontwikkelaars functionaliteit toevoegen aan hun games en interactieve ervaringen door middel van het slepen en neerzetten van logische knooppunten. Dit maakt het toegankelijker voor beginners om hun ideeën tot leven te brengen zonder diepgaande programmeerkennis.
+          
+          <br><br>
+          Community en Documentatie:
+          Een ander groot voordeel van het werken met Unreal Engine is de omvangrijke community en de uitgebreide documentatie die beschikbaar is. Er zijn talloze tutorials, forums en bronnen online die ontwikkelaars kunnen helpen bij het oplossen van problemen, het leren van nieuwe technieken en het delen van kennis. Dit creëert een ondersteunende omgeving waarin ontwikkelaars kunnen groeien en samenwerken.
+          
+          <br><br>
+          Cross-platform Ontwikkeling:
+          Unreal Engine ondersteunt cross-platform ontwikkeling, wat betekent dat ontwikkelaars hun games en applicaties kunnen bouwen voor verschillende platforms, zoals pc, console, mobiel en VR-headsets. Dit biedt ontwikkelaars de mogelijkheid om een breder publiek te bereiken en hun creaties op verschillende apparaten beschikbaar te stellen.
+          Conclusie:
+          Unreal Engine heeft zich bewezen als een krachtige en veelzijdige game-engine die zowel door professionals
+        </p>
+      </article>
+       
+    
+       
+      </main>
+    <form>
+        <button type="button" id="btnPrev">previous</button>
+        <button type="button" id="btnNext">next</button>
+    </form>
+    
+</body>
 </html>
