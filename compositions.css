@@ -22,7 +22,7 @@
     line-height: 70px;
     text-align: center;
     background: rgb(169, 169, 169)
-    user-select: none;
+    user-select:none
   }
   .sidebar ul a{
     display: block;
@@ -176,16 +176,8 @@
       padding: 1%;
     
     }
-    
-    
-    
   
-    
-
-    
- 
-  
-  h2{
+    h2{
     color:black;
     font-style: italic;
     text-align: center;
@@ -212,4 +204,9 @@
   }
 .video {
   width: 50%;
+}
+canvas {
+  width: 50%;
+  border: 5px solid #0a5275;
+
 }
